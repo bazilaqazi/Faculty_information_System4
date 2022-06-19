@@ -1,0 +1,23 @@
+<br><br>
+<br><br>
+<button class="button-53" role="button">
+    Department Details </button>
+    <br><br>
+    
+<div class="container">
+    <table class="table table-hover" id="customers">
+        <thead>
+            <tr>
+                <th>Department ID</th>
+                <th>Department Name</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of department">
+                <td>{{item.deptId}}</td>
+                <td>{{item.deptName}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

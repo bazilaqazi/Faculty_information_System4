@@ -1,0 +1,45 @@
+<br><br>
+<br><br>
+
+<button class="button-53" role="button">
+    Faculty Details </button>
+    <br><br>
+    
+   <div>
+    
+    <!-- <h3 style="text-align: center;"> Faculty Information</h3> -->
+        
+        <table id="customers">
+            <tr></tr>
+            <tr>
+                  
+                   <th>First Name</th>
+                   <th>Last Name</th>
+                  
+                 
+                   <th>Mobile No</th>
+                   <th>Pincode</th>
+                   <th>Email</th>
+                  
+                   <th>Department Id</th>
+                 
+               </tr>
+           
+               <tr *ngFor="let item of faculty">
+                   
+                   
+                   <td>{{item.firstName}}</td>
+                   <td>{{item.lastName}}</td>
+                  
+                  
+                   <td>{{item.mobileNo}}</td>
+                   <td>{{item.pincode}}</td>
+                   <td>{{item.emailAddress}}</td>
+                 
+                   <td>{{item.deptId}}</td>
+                   
+               </tr>
+    
+       </table>
+       </div>
+
